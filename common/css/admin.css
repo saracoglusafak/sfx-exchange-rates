@@ -1,0 +1,177 @@
+.sfxmuted {
+	color: #AAAAAA;
+	font-size: 75%;
+}
+
+
+#sfxexchangerates-wrap .float-right {
+	float: right;
+}
+
+
+#sfxexchangerates-wrap .sfx-add-button {
+	margin-top: 5px;
+}
+
+
+
+#sfxexchangerates-wrap [id^="sfx-elements-"] {
+	margin-top: 20px;
+}
+
+#sfxexchangerates-wrap [id^="sfx-elements-"] .sfxelement {
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+
+#sfxexchangerates-wrap,
+#sfxexchangerates-wrap * {
+	box-sizing: border-box;
+}
+
+#sfxexchangerates-wrap a {
+	text-decoration: none;
+}
+
+#sfxexchangerates-wrap .clearfix {
+	clear: both;
+}
+
+
+#sfxexchangerates-wrap [class*="sfxexchangerates-remove-"]::after {
+	content: "x";
+	color: #f00;
+	font-size: 20px;
+	display: inline-block;
+	padding: 0px 5px;
+	line-height: 20px;
+}
+
+
+#sfxexchangerates-wrap .sfxexchangerates-image [class*="sfxexchangerates-remove-"] {
+	opacity: .4;
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 999;
+	font-weight: bold;
+}
+
+
+#sfxexchangerates-wrap .sfxexchangerates-image:hover [class*="sfxexchangerates-remove-"] {
+	opacity: 1;
+}
+
+#sfxexchangerates-wrap .sfxexchangerates-image {
+	position: relative;
+	/* float: left; */
+	overflow: hidden;
+	padding: 5px;
+}
+
+#sfxexchangerates-wrap .sfxexchangerates-image img {
+	width: 100%;
+	height: 100%;
+}
+
+#sfxexchangerates-wrap label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+#sfxexchangerates-wrap textarea,
+#sfxexchangerates-wrap select,
+#sfxexchangerates-wrap input[type="text"],
+#sfxexchangerates-wrap input[type="number"] {
+	width: calc(100% - 2px) !important;
+	max-width: calc(100% - 2px) !important;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#sfxexchangerates-wrap .row {
+	display: block;
+	overflow: hidden;
+}
+
+#sfxexchangerates-wrap .row::after {
+	clear: both;
+	width: 100%;
+	display: block;
+	content: "";
+}
+
+#sfxexchangerates-wrap [class*="col-"] {
+	overflow: hidden;
+	/* border: 1px solid #000; */
+	/* background-color:#fff; */
+	margin: 5px 0;
+	/* padding: 5px 10px; */
+	display: block;
+	float: left;
+}
+
+
+
+#sfxexchangerates-wrap .col-1 {
+	width: calc(100% / 12);
+}
+
+#sfxexchangerates-wrap .col-2 {
+	width: calc(100% / 12 * 2);
+}
+
+#sfxexchangerates-wrap .col-3 {
+	width: calc(100% / 12 * 3);
+}
+
+#sfxexchangerates-wrap .col-4 {
+	width: calc(100% / 12 * 4);
+}
+
+#sfxexchangerates-wrap .col-5 {
+	width: calc(100% / 12 * 5);
+}
+
+#sfxexchangerates-wrap .col-6 {
+	width: calc(50%);
+}
+
+#sfxexchangerates-wrap .col-7 {
+	width: calc(100% * 7 / 12);
+}
+
+#sfxexchangerates-wrap .col-8 {
+	width: calc(100% * 8 / 12);
+}
+
+#sfxexchangerates-wrap .col-9 {
+	width: calc(100% * 9 / 12);
+}
+
+#sfxexchangerates-wrap .col-10 {
+	width: calc(100% * 10 / 12);
+}
+
+
+#sfxexchangerates-wrap .col-11 {
+	width: calc(100% * 11 / 12);
+}
+
+#sfxexchangerates-wrap .col-12 {
+	width: calc(100%);
+}
+
+@media (max-width: 768px) {
+	[class*="col-"] {
+		width: 100% !important;
+	}
+}
+
+#sfxexchangerates-wrap .text-right {
+	text-align: right;
+}
